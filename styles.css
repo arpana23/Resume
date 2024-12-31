@@ -144,7 +144,7 @@ footer {
 
     #home p {
         font-size: 1.2em;
-        margin: 30px 0;
+        margin: 30px 0 40px 0;
         width: 70%;
         line-height: 30px;
         text-align: justify;
@@ -208,6 +208,10 @@ footer {
         border-bottom-right-radius: 0px;
         margin-top: 0px;
         z-index: 200;
+    }
+
+     #myLinks nav a:hover {
+        background: none;
     }
     
     #hamburgerMenu {
