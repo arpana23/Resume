@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Resume</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <script>
+        document.addEventListener('contextmenu', (e)=> {
+            e.preventDefault()
+        })
+    </script>
+    
+</head>
+<body>
+    <div id="myLinks">
+    <nav>
+        <div id="hamburgerMenu" onclick="showHide()">
+            <span>-</span>
+            <span>-</span>
+            <span>-</span>
+        </div>
+        <a href="#home" class="active" onclick="myclose()">Home</a>
+        <a href="#skills" onclick="myclose()">Skills & Tools</a>
+        <a href="#experience" onclick="myclose()">Work Experience</a>
+        <a href="#projects" onclick="myclose()">Projects</a>
+        <a href="#education" onclick="myclose()">Education</a>
+    </nav>
+</div>
+
+    <section id="home" onclick="myclose()">
+        <h1>Arpana Sinha</h1>
+        <p>Web Developer | HTML5 | CSS3 | JavaScript | ReactJs</p>
+        <p>"I am a dedicated and innovative web developer with a passion for creating seamless and engaging digital experiences. With expertise in  modern web technologies, responsive design, and scalable solutions, I thrive on transforming ideas into functional, user-friendly   applications. My focus is on delivering high-quality, efficient code and staying ahead of industry trends to ensure impactful and future-ready web solutions".<span>I have completed MCA from IGNOU and MERN Stack development training from Be-practical institute Bengaluru.</span></p>    
+    </section>
+
+    <section id="skills" onclick="myclose()">
+        <div class="content">
+            <h2>Skills & Tools</h2>
+            <p>HTML & HTML5, CSS & CSS3, Javascript, Jquery, Bootstrap, ReactJs, NodeJs, ExpressJs, MongoDB, Postman , Git, GitHub</p>
+        </div>
+    </section>
+
+    <section id="experience" onclick="myclose()">
+        <div class="content">
+            <h2>Work Experience</h2>
+            <p><b></b>Working as a Web developer in CGPL, INDIAN INSTITUTE OF SCIENCE BENGALURU.(Aug 2022 - Present): Built responsive and user-friendly  website.</p>
+            <p><b></b>4 months working experience as MERN stack developer in WAYCOOL FOODS AND PRODUCTS PVT LTD.</p>
+        </div>
+    </section>
+
+    <section id="projects" onclick="myclose()">
+        <div class="content">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <a href="https://random-person-app.netlify.app/" target="_blank" ><img src="./images/randomUser.png" alt="Project 1"></a>
+                <div class="project-text">
+                    <a href="https://random-person-app.netlify.app/" target="_blank" >Project Link</i></a>
+                    <a href="https://github.com/arpana23/random-user" target="_blank" ><span>Github</span><i class="fa fa-github" style="font-size:25px"></i></a>
+
+                    <h3>Random-User-App</h3>
+                    <p>A Random User Generator App created with ReactJS and styled using CSS3 generates random user profiles at the click of a "Random User" button. Users can view detailed information by hovering over respective icons, offering an interactive and user-friendly experience. Ideal for testing, prototyping, or learning purposes.</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <a href="https://dark-mode2022.netlify.app/" target="_blank"><img src="./images/nightMode.png" alt="Project 2"></a>
+                <div class="project-text">
+                    <a href="https://dark-mode2022.netlify.app/" target="_blank" >Project Link</i></a>
+                    <a href="https://github.com/arpana23/night-mode" target="_blank" ><span>Github</span><i class="fa fa-github" style="font-size:25px"></i></a>
+                    <h3>Night-mode-App</h3>
+                    <p>A Day-Night Mode Toggle App developed with ReactJS and styled using CSS3 allows users to switch between Day and Night modes by clicking a toggle button. The app features a visually appealing and responsive design, providing a smooth transition between modes. Perfect for enhancing user comfort and accessibility in varying lighting conditions.</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <a href="https://delicious-drink.netlify.app/" target="_blank"><img src="./images/cocktails-drink.png" alt="Project 3"></a>
+                <div class="project-text">
+                    <a href="https://delicious-drink.netlify.app/" target="_blank" >Project Link</i></a>
+                    <a href="https://github.com/arpana23/cocktails" target="_blank" ><span>Github</span><i class="fa fa-github" style="font-size:25px"></i></a>
+                    <h3>Cocktails-Search-App</h3>
+                    <p>A Drink Search App designed with ReactJS and styled using CSS3 allows users to effortlessly search for drinks by typing the name into a search bar. For detailed information about a specific drink, users can click the "Details" button. The app features a sleek and intuitive layout, providing a seamless user experience for beverage enthusiasts.</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <a href="https://arpana23.github.io/temp-converter/" target="_blank"><img src="./images/tempConverter.png" alt="Project 4"></a>
+                <div class="project-text">
+                    <a href="https://arpana23.github.io/temp-converter/" target="_blank" >Project Link</i></a>
+                    <a href="https://github.com/arpana23/temp-converter" target="_blank" ><span>Github</span><i class="fa fa-github" style="font-size:25px"></i></a>
+                    <h3>Temperature-Converter-App</h3>
+                    <p>A Temperature Converter App built with HTML5, CSS3, and JavaScript enables users to seamlessly convert temperatures between Celsius and Fahrenheit. The app features a user-friendly interface and responsive design, ensuring smooth performance across devices. With real-time input handling, it provides accurate and instant results for both conversions. Perfect for students, professionals, and travelers!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="education" onclick="myclose()">
+        <div class="content">
+            <h2>Education</h2>
+            <p>Bachelor Of Computer Application (IGNOU)</p>
+            <p>Master Of ComputerApplication (IGNOU)</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="navbar.js"></script>
+
+</body>
+</html>
